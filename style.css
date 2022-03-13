@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 11pt;
+    font-family: 'DM Sans', sans-serif;
+}
+
+body {
+    text-align: center;
+}
+
+#main-content {
+    display: inline-block;
+    width: 480px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: left;
+}
+
+span[class="code"] {
+    display: inline-block;
+    font-family: 'DM Mono', monospace !important;
+    background-color: rgb(133, 133, 133);
+    color: white;
+    padding: 0px 5px;
+    border-radius: 3px;
+}
+
+.legend {
+    display: inline-block;
+    margin: 0 30%;
+    /* width: 100%; */
+}
+
+.legend > div {
+    margin: 2px;
+    border-color: rgba(128, 128, 128, 0.178);
+    border-width: 2px;
+    border-style: solid;
+}
+
+.score {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    padding: 5px;
+    border: 3px solid black;
+    background-color: rgba(255, 255, 0, 0.199);
+    text-align: center;
+}
+
+.score > .bar {
+    position: absolute;
+    display: inline-block;
+    left: 10px;
+    top: 10px;
+    height: 100%;
+    z-index: -1;
+    background-color: yellow;
+}
+
+.choice > input {
+    display: none;
+}
+
+.choice > input + label, .legend > div {
+    display: inline-block;
+    width: 100%;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    padding: 2px 5px;
+    cursor: pointer;
+}
+
+.choice > input:checked + label, .legend > .chosen {
+    border-left-color: greenyellow;
+}
+
+.choice.target > input + label, .legend > .target {
+    border-right-color: greenyellow;
+}
+
+.choice.wrong > label, .legend > .wrong {
+    background-color: red;
+}
+
+.choice.correct > label, .legend > .correct {
+    background-color: greenyellow;
+}
+
+.question > .choices > .choice {
+    border: 2px solid black;
+}
+
+input[type="submit"] {
+    border: 2px solid black;
+    display: inline-block;
+    width: 100%;
+    font-size: 2em;
+    color: black;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    color: white;
+    background-color: black;
+}
+
+.clear {
+    display: inline-block;
+    text-align: right;
+}
+
+.controls {
+    text-align: right;
+}

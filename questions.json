@@ -1,0 +1,92 @@
+[
+    {
+        "content": "In PHP, what is the purpose of the <span class='code'>static</span> keyword?",
+        "choices": [
+            "To make variables accessible on a class level.",
+            "To make instance variables accessible on a class level.",
+            "To make variables constant."
+        ],
+        "answers": [0]
+    },
+    {
+        "content": "What is the meaning of PHP?",
+        "choices": [
+            "Hypertext Processor",
+            "Hypertext Postprocessor",
+            "Hypertext Preprocessor"
+        ],
+        "answers": [2]
+    },
+    {
+        "content": "Ternary operations exist in PHP?",
+        "choices": [
+            "Yes",
+            "No",
+            "Maybe"
+        ],
+        "answers": [0]
+    },
+    {
+        "content": "What is the constructor of class named in PHP?",
+        "choices": [
+            "<span class='code'>__constructor</span>",
+            "<span class='code'>__construct</span>",
+            "<span class='code'>__init__</span>"
+        ],
+        "answers": [1]
+    },
+    {
+        "content": "What is the sign that's needed to be prepended to variable name?",
+        "choices": [
+            "<span class='code'>$</span>",
+            "<span class='code'>#</span>",
+            "<span class='code'>&</span>"
+        ],
+        "answers": [0]
+    },
+    {
+        "content": "In PHP, which of the following is valid ternery operation?",
+        "choices": [
+            "<span class='code'>true ? $x = false : $x = true;</span>",
+            "<span class='code'>false if true else true;</span>",
+            "<span class='code'>true ? false : true;</span>"
+        ],
+        "answers": [2]
+    },
+    {
+        "content": "In PHP, the null coalescing operator is represented by what symbol?",
+        "choices": [
+            "<span class='code'>??</span>",
+            "<span class='code'>||</span>",
+            "<span class='code'>!!</span>"
+        ],
+        "answers": [0]
+    },
+    {
+        "content": "<span class='code'>array('key'=>'value')</span> is what kind of array?",
+        "choices": [
+            "HashMap Array",
+            "Associative Array",
+            "Dictionary Array"
+        ],
+        "answers": [1]
+    },
+    {
+        "content": "In PHP, constant variables are created defined in what way?",
+        "choices": [
+            "<span class='code'>$CONSTANT_NAME = 'value';</span>",
+            "<span class='code'>define('CONSTANT_NAME', 'value');</span>",
+            "<span class='code'>define_constant('CONSTANT_NAME', 'value');</span>"
+        ],
+        "answers": [1]
+    },
+    {
+        "content": "There is a <span class='code'>foreach</span> loop in PHP?",
+        "choices": [
+            "Yes",
+            "No",
+            "Maybe"
+        ],
+        "answers": [0]
+    }
+]
